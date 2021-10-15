@@ -12,8 +12,8 @@
     let multiOnOff = false; 
 
     let automat = {
-        color1  : 'yellow',
-        color2  : 'blue',
+        color1  : 'orange',
+        color2  : 'black',
         max     : 200, 
         currGen : [], 
         nextGen : [], 
@@ -29,7 +29,7 @@
 
                 let xPos  = 1;
                 let yPos  = 1;
-                // pro Kästchen ein Object anlegen
+              
                 for (let i = 0; i < this.max; i ++){
                     let rect = {};
                     rect.x = xPos;
@@ -100,7 +100,7 @@
     };
 
     function render(){
-        setTimeout(render,1000);
+        setTimeout(render,500);
         automat.update();
         automat.setRow();
     };
@@ -114,20 +114,4 @@
 // ###############
 
 }());
-   
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
     
