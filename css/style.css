@@ -1,0 +1,17 @@
+
+body{margin:0}
+
+#start,#multi{ 
+    margin-bottom:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    width:20vw;
+    display:block;
+    height:2rem;
+    cursor:pointer;
+}
+canvas{
+    display:block;
+    border:1px solid rgba(100, 100, 100, 0.219); 
+    margin:auto;
+}
